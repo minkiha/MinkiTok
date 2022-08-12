@@ -1,30 +1,11 @@
 # MinkiTok (TikTok Clone)
 
-## Todo
+## A reimplementation of the TikTok Web App
 
+Using NextJS and TailwindCSS as the frontend.
+Supabase (postgres db + storage buckets) and Vercel serverless functions as backend.
 
-## View
-
-Navbar
-Menu Panel (Left 1/3)
-Content Panel (Right 2/3)
-
-## Functionality
-
-1) Fetch Video
-2) Login / Signup
-3) Upload Video
-4) Comment, Like, Follow
-
-## States
-
-Global -
-isLoggedin : boolean
-showLoginCard : boolean
-username : string
-
-
-ContentCardFullScreen : boolean
+### Todo
 
 
 
