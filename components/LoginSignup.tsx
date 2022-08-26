@@ -57,8 +57,8 @@ export const LoginSignup = ({props, props1, props2}: any) => {
                 <button className="bg-red-500 rounded text-white py-2 my-4" type="submit" >Log in</button>
             </form>
             <div className="flex flex-row gap-2">
-                <div>Don't have an account?</div> 
-                <button className='text-red-500' onClick={() => {setSignup(true)}}>Sign up</button>
+                Dont have an account? 
+                <button className="text-red-500" onClick={() => {setSignup(true)}}>Sign up</button>
                 {signup && <h1>signup === true</h1>} 
             </div>
         </div>
@@ -79,7 +79,7 @@ export const LoginSignup = ({props, props1, props2}: any) => {
             </form>
             <div className="flex flex-row gap-2">
                 Already have an account? 
-                <button className='text-red-500' onClick={() => {setSignup(false)}}>Log in</button>
+                <button className="text-red-500" onClick={() => {setSignup(false)}}>Log in</button>
             </div>
         </div>
         )
